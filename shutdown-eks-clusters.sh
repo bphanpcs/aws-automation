@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#This script is written for the purpose of maintaing cost in my AWS lab setup for short-term testing only
+#Do not use it in production as you might accidentally shutdown clusters unintentionally
+#Author: Binh Phan
+
 # Check if AWS CLI and eksctl are installed
 if ! command -v aws &> /dev/null || ! command -v eksctl &> /dev/null; then
     echo "ERROR: AWS CLI and/or eksctl are not installed. Please install them and try again."
