@@ -1,1 +1,1 @@
-# aws-automation
+# My personal automation scripts
