@@ -4,6 +4,9 @@
 #Do not use it in production as you might accidentally shutdown clusters unintentionally
 #Author: Binh Phan
 
+# Set the AWS profile to use
+export AWS_PROFILE="myprofile"
+
 # Check if AWS CLI and eksctl are installed
 if ! command -v aws &> /dev/null || ! command -v eksctl &> /dev/null; then
     echo "ERROR: AWS CLI and/or eksctl are not installed. Please install them and try again."
